@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha -w ./tests/**/*.spec.js"
   },
   "engines": {
     "node": ">=12.18.3",
@@ -21,5 +21,11 @@
     "morgan": "^1.10.0",
     "pg": "^8.8.0",
     "sequelize": "^6.25.3"
+  },
+  "devDependencies": {
+    "supertest-session": "^4.0.0",
+    "mocha": "^8.1.1",
+    "chai": "^4.2.0",
+    "supertest": "^4.0.2"
   }
 }
