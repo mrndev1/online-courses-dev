@@ -1,14 +1,14 @@
-const { Router, json } = require('express');
+const express= require('express');
 const morgan = require('morgan');
 const cors = require('cors');
 const routes = require('./routes/index');
 require('./db');
 
-const app = Router();
+const app = express.Router();
 app.name = 'API';
 app.use(cors('*'));
 app.use(morgan('dev'));
-app.use(json());
+app.use(express.json());
 app.use('/', routes);
 
 
