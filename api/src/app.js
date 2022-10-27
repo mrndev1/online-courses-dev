@@ -4,7 +4,7 @@ const cors = require('cors');
 const routes = require('./routes/index');
 require('./db');
 
-const app = express.Router();
+const app = express();
 app.name = 'API';
 app.use(cors('*'));
 app.use(morgan('dev'));
