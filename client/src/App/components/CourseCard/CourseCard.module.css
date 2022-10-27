@@ -1,0 +1,19 @@
+.container {
+    background-color: #ffff; border-radius: 10px; text-align: center;
+    display: flex; flex-direction: column; justify-content: flex-start; align-items: center;
+    height: 16rem; width: 17rem; padding: 5px;
+}
+
+.info_container { padding: 5px; }
+
+.img {
+    border-radius: 10px; box-shadow: 0px 3px 10px -5px #000;
+    height: 60%; width: 100%;
+}
+
+.title, .link_container_link {
+    background-color: #ffff55; box-shadow: 0px 3px 10px -5px #000; border-radius: 10px;
+    padding: 5px; margin: 7px;
+}
+.link_container { display: flex; justify-content: space-evenly; align-items: center; }
+.link_container_link { width: 3rem; }

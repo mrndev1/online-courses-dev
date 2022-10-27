@@ -1,0 +1,10 @@
+.container {
+    display: flex;
+}
+
+.input { border-radius: 5px; border: 0px; padding: 5px 3px 5px 3px; width: 11.4rem; }
+.btn {
+    background-color: #ffff55;
+    display: flex; justify-content: center; align-items: center;
+    width: 1.3rem; border-radius: 10px; margin-left: 0.3rem;
+}
